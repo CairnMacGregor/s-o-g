@@ -1,0 +1,74 @@
+body{
+    margin: 5% auto;
+    padding: 0;
+    font-family:  sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;
+    max-width: 1000px;
+}
+
+
+/* Index */
+
+.detail-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.detail-table-header {
+    background-color: #f8f8f8;
+}
+
+.detail-table-row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.detail-table-cell {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.table-wrapper {
+    margin: auto;
+    max-width: 800px;
+    overflow-x: auto;
+}
+
+
+/* Forest */
+
+.paginator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    margin: auto;
+}
+
+.paginator__buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.paginator__buttons-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.paginator__button{
+
+}
